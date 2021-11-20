@@ -1,0 +1,86 @@
+@charset "utf-8";
+body header h1 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 36px;
+    padding-bottom: 0px;
+    margin-bottom: -14px;
+    color: #107059;
+}
+main section h2 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #323232;
+}
+main section h2 {
+}
+
+section form fieldset {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    border: thick double #838383;
+    border-radius: 18px;
+}
+input {
+    text-shadow: 0px 0px #1E1E1E;
+    background-color: #E7F4FC;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    padding-left: 5px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#select {
+    color: #0D0D0D;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form p input {
+}
+form p input {
+}
+
+
+body  {
+    margin: 0px;
+	padding: 0px;
+	
+}
+body header h1 {
+    text-shadow: 0px 0px #90CCF3;
+}
+#enviar {
+    background-color: #107059;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-style: none;
+	text-decoration: none;
+}
+#reset {
+    background-color: #107059;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    border-radius: 18px;
+    padding-top: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-bottom: 8px;
+    border-style: none;
+}
+#archivo {
+    background-color: #FFFFFF;
+}
+body h3 {
+    color: #232323;
+    font-family: arial;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!--((header>h1)+(nav>ul>(li*5))+(main>section>(h+p))+(footer>h5))-->
+	<header>
+		<h1>Audio en html</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1>Inserción de audio simple</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque officia doloribus nisi illo modi. Non sint fugit similique cum quod distinctio soluta harum maxime, qui assumenda mollitia libero sed, laudantium.</p>
+			<audio controls>
+			<source src="../audio/Efecto de sonido suspenso.mp3" type="audio/mp3">
+			<source src="" type="audio/ogg">
+			<source src="" type="audio/wav">
+			your browser does not support the audio element.
+		</audio>
+		</section>
+		<section>
+			<h1>Inserción de audio sin sonido o muted</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, saepe.</p>
+			<audio controls muted autoplay>
+			<source src="../audio/Gabrielle Aplin - Panic Cord (1).mp3">
+			</audio>
+		</section>
+		<section>
+			<h1>Inserción de audio con reproduccion ciclica</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, saepe.</p>
+			<audio controls autoplay loop >
+			<source src= "../audio/Camilo - KESI.mp3" type="audio/mp3">
+			</audio>
+		</section>
+		<section>
+			<h1>Inserción de audio de repositorio</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, saepe.</p>
+			<iframe id='audio_38846' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://mx.ivoox.com/es/player_ej_38846_6_1.html'></iframe>
+		</section>
+		<section>
+			<h1>Inserción de audio desde dream</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque officia doloribus nisi illo modi. Non sint fugit similique cum quod distinctio soluta harum maxime, qui assumenda mollitia libero sed, laudantium.</p>
+            <audio controls="controls" muted="muted" autoplay="autoplay" >
+			<source src="../audio/Olivia Rodrigo - good 4 u (Official Video).mp3" type="audio/mp3">
+			</audio>
+			<section>
+			<h1>Inserción de audio de repositorio</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, saepe.</p>
+		<iframe src="https://open.spotify.com/embed/track/0fwIHsKXNEcb57u2um7z9I?theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</section>
+			
+		</section>
+	</main>
+	<footer>
+	  <h5>Ana Karen Bartolo Herrera © 2021</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+ }
+header {
+    color: #FBFBFB;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    background-image: url("https://tec.mx/sites/default/files/styles/header_full/public/2020-10/dia-de-muertos-mercadotecnia-tec-de-monterrey.jpg?h=920929c4&itok=Zvtm0feu") ;
+    padding: 40px;
+    text-shadow: 0px 0px;
+}
+nav {
+    height: 54px;
+    background-color: #ED9313;
+    margin-top: 0px;
+    padding-top: 0px;
+	text-decoration: none;
+}
+main {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 30px;
+    background-color: #050112;
+}
+heade, nav, main, footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: auto;
+}
+body nav ul {
+    height: auto;
+    margin: 0px;
+    padding-top: 0px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 23px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer {
+    padding: 40px;
+    margin: 0px;
+    background-color: #ED9313;
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+	color: aliceblue
+}
+
+#hola {
+    float: left;
+    margin-right: 14px;
+}
+#hola2 {
+    float: left;
+    margin-right: 14px;
+}
+.flex-cointeiner{
+	display: flex;
+	justify-content: center;
+	
+}
+.flex-cointeiner>div{
+	background: #ED9313;
+	margin: 10px;
+	padding: 10px;
+ }
+.box-cointeiner-flex>div{
+	margin: 20px;
+	padding: 10px;
+	background-color: orange;
+	width: 80%;
+}
+.box-cointeiner-flex{
+	display:contents;
+	flex-direction:column;
+	justify-content: center;
+ }
+
+

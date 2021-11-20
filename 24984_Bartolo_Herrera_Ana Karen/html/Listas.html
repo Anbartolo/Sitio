@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}	
+	h1{
+		color:#FF5F00;
+		font-size: 50px;	
+	}
+	h2{
+		color: #FF5F00;
+		font-size: 38px;
+		padding: 15px;
+	}
+	h5{
+		color:#FF5F00;
+	}
+	header,footer,main, nav{
+		width: 960px;
+		height: 100px;
+		background-color: #B7B7B7;
+		padding: 20px;
+		text-align: left;
+		margin: left; /*Centrar la caja automaticamente en horizontal*/
+	}
+	header,footer{
+		height: 100px;
+		padding: 20px;
+		text-align: center;
+		background-color: #EDE8E3; 
+	}
+	nav{
+		height: 10px;
+		padding: 20px;
+		background-color: #171717;
+	}
+	main{
+		height: auto;
+		background-color: #494949;
+		padding: 20px;
+	}
+	section{
+		background-color: #EDE8E3;
+		margin: 30px;
+		padding: 20px;
+		border: solid 5px #323232;
+		
+	}
+	table{
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	th,td{
+		padding: 10px;
+	}
+	th{
+	text-align: left;
+	background-color: #2a2642;
+	color: #E2d5d0;
+	}
+	td{
+	text-align: left;
+	background-color: #E2d5d0;
+	color: #2a2642;
+	}
+	#t01 th{
+		background-color:#670554;
+		color:#FFFFFF
+	}
+	#t01{
+		background-color: #F8D9D9;
+		border: double 2px #670554;
+	}
+	#t01 td{
+		background-color:#DCBCE0;
+		color:#13000B
+	}
+</style>
+</head>
+
+<body>
+	<header>
+		<h1>Listas en html</h1>
+	</header>
+	<nav></nav>
+	<main>
+	<section>
+		<h2>Lista desordenada o con viñeta</h2>
+		<ul>
+		<li>Tijeras</li>
+		<li>Libreta profesional</li>
+		<li>Colores</li>
+		<li>100 Hojas blancas</li>
+		<li>Lapiz N° 2 mirado</li>
+		</ul>
+		</section>
+		<section>
+		<h2>Lista ordenada o con viñeta númerada</h2>
+		<ol>
+		<li>Jessica Mena</li>
+		<li>Francisco Faustino</li>
+		<li>Adriana Montalvo</li>
+		<li>Erick Reyes</li>
+		<li>Karla Cruz</li>
+		</ol>
+	</section>
+	<section>
+		<selection>
+			<h2>Lista mixta</h2>
+			<ol>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>México</li>
+					<ul>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Guadalajara</li>
+					</ul>
+				<li>Estados Unidos</li>
+				<li>Italia</li>
+					<ol>
+						<li>Roma</li>
+						<li>Florencia</li>
+						<li>Venencia</li>
+					</ol>	
+				<li>Francia</li>
+			</ol>
+		</selection>
+		<selection>
+			<h2>Lista de descripción</h2>
+			<dl>
+			<dt>Usabilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+				Aliquid sit laudantium ipsum aliquam autem maiores odit, 
+				magni quas tenetur esse.</dd>
+			
+			<dt>Accesibilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+				Deleniti aperiam perspiciatis, non nisi alias distinctio voluptas, 
+				atque neque aut necessitatibus quis vel amet, harum, cum. Dicta, illum, 
+				facere! In, obcaecati.</dd>	
+			
+			<dt>Interactividad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+				Fugiat in laboriosam temporibus officia, optio maiores! 
+				Reprehenderit expedita temporibus molestiae ad dignissimos 
+				sunt magni omnis consequuntur numquam aspernatur? Assumenda, ad. 
+				Ratione nulla inventore nesciunt.</dd>
+			</dl>
+			<selection>
+				<h2>Lista con cambio de viñetas</h2>
+				<ol>
+				<li>Mamiferos</li>
+					<ul style="list-style-type:disc">
+						<li>Vaca</li>
+						<li>Humanos</li>
+						<li>Perros</li>
+					</ul>
+				<li>Reptiles</li>
+					<ul style="list-style-type:square">
+						<li>Lagartija</li>
+						<li>Iguana</li>
+						<li>Serpiente</li>
+					</ul>
+				<li>Anfibios</li>
+					<ul style="list-style-type:lower-roman">
+						<li>Salamandra</li>
+						<li>Rana</li>
+						<li>Cecilia</li>
+					</ul>
+				<li>Felinos</li>
+					<ul style="list-style-type:upper-roman">
+						<li>Leones</li>
+						<li>Pantera</li>
+						<li>Tigre</li>
+					</ul>
+				<li>Caninos</li>
+					<ul style="list-style-image: url('img/dedo-señalando.png')">
+						<li>Perros</li>
+						<li>Lobos</li>
+						<li>Zorros</li>
+					</ul>
+				<li>Vertebrados</li>
+					<ul style="list-style-image: url('img/flecha-derecha.png')">
+						<li>Peces</li>
+						<li>Aves</li>
+						<li>Anfibios</li>
+					</ul>
+				
+			</ol>
+					
+			</selection>
+		</selection>
+	</section>
+	</main>
+	<footer>
+		<h5>Ana Karen Bartolo Herrera © 2021 </h5>
+	</footer>
+</body>
+</html>

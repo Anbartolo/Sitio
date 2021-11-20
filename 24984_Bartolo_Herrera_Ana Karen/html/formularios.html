@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en html</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>
+			<li><a href="animacion.html">Animación</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+		</ul>
+	</nav>
+	<main>
+	  <section>
+		<h3>Inserción de formularios</h3>
+			<form>
+				<label>Nombre:</label>
+				<input type="text" id="idname" name="nombre">
+				<input type="button" id="idboton" name="enviar" value="ENVIAR">
+			</form>
+		</section>
+		<section>
+			<h3>Inserción de formularios con casillas de verificación</h3>
+			<form>
+			<label>¿Cuales son los generos musicales que prefieres?</label>
+			<input type="checkbox" id="generom1" name="generom1" value="Pop">
+			<label>Pop</label>
+			<input type="checkbox" id="generom2" name="generom2" value="Rock">
+			<label>Rock</label>
+			<input type="checkbox" id="generom3" name="generom3" value="Jazz">
+			<label>Jazz</label>
+			<input type="checkbox" id="generom4" name="generom4" value="Alternativo">
+			<label>Alternativo</label>
+			<input type="button" id="idboton2" name="enviar2" value="ENVIAR">
+			
+			</form>	
+		</section>
+		<section>
+			<h3>Inserción de formulario con botones radio</h3>
+			<form id="form1" name="form1" method="get" action="action_page.html">
+			<label>Genero:</label>
+			<input type="radio" name="radio" id="radio" value="radio">
+			<label for="radio">Femenino&nbsp;</label>
+			<input type="radio" name="radio2" id="radio2" value="radio2">
+			<label for="radio2">Masculino&nbsp;</label>
+			<input type="submit" name="submit" id="submit" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h3>Inserción de formulario con botones radio</h3>
+			<form action="action_page.html" method="get">
+			<label>Contacto</label>
+				
+			<table width="50%" border="0">
+			<tbody>
+			<tr>
+			<td><label for="textfield">Nombre:&nbsp;</label></td>
+			<td><input type="text" name="textfield" id="textfield"></td>
+			</tr>
+			<tr>
+			<td><label for="email">Email:&nbsp;</label></td>
+			<td><input type="email" name="email" id="email"></td>
+			</tr>
+			<tr>
+			<td><label for="textarea">Mensaje:&nbsp;</label></td>
+			<td><textarea name="textarea" id="textarea"></textarea></td>
+			</tr>
+			<tr>
+			<td><input type="submit" name="submit2" id="submit2" value="enviar"></td>
+			</tr>
+			</tbody>
+			</table>
+			</form>
+		</section>
+			<section>
+			<h3>Inserción de formulario ingreso o login </h3>
+			<form action="action_page.html" method="get">
+			<label>Bienvenido</label>
+			<table width="50%" border="0">
+			<tbody>
+			<tr>
+			<td><label for="textfield">Usuario:&nbsp;</label></td>
+			<td><input type="text" name="textfield1" id="textfield1"></td>
+			</tr>
+			<tr>
+			<td><label for="textfield">Contraseña:&nbsp;</label></td>
+			<td><input type="password" name="password" id="password"></td>
+			</tr>
+			<tr>
+			<td> 
+			<input type="submit" name="submit3" id="submit3" value="Enviar">
+			</td>
+			</tr>
+			</tbody>
+			</table>
+			</form>
+	  </section>
+	</main>
+	<footer>
+		<h5>Ana Karen Bartolo Herrera © 2021</h5>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas en html</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}	
+	h1{
+		color:#fabc28;
+		font-size: 50px;	
+	}
+	h2{
+		color: #2a2642;
+		font-size: 38px;
+		padding: 15px;
+	}
+	h5{
+		color:#fabc28;
+	}
+	header,footer,main, nav{
+		width: 960px;
+		height: 100px;
+		background-color: #E2d5d0;
+		padding: 20px;
+		text-align: center;
+		margin: 0 auto; /*Centrar la caja automaticamente en horizontal*/
+	}
+	header,footer{
+		height: 100px;
+		padding: 20px;
+		text-align: center;
+		background-color: #151723; 
+	}
+	nav{
+		height: 10px;
+		padding: 20px;
+		background-color: #54689E;
+	}
+	main{
+		height: auto;
+		background-color: #2a2642;
+		padding: 20px;
+	}
+	section{
+		background-color: #E2d5d0;
+		margin: 30px;
+		padding: 20px;
+		border: solid 5px #fabc28;
+		
+	}
+	table{
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	th,td{
+		padding: 10px;
+	}
+	th{
+	text-align: left;
+	/*background-color: #2a2642;*/
+	color: #000000;
+	}
+	td{
+	text-align: left;
+	/*background-color: #E2d5d0;*/
+	color: #2a2642;
+	}
+	#t01 th{
+		background-color:#670554;
+		color:#fabc28
+	}
+	#t01{
+		background-color: #F8D9D9;
+		border: double 2px #670554;
+	}
+	#t01 td{
+		background-color:#DCBCE0;
+		color:#13000B
+	}
+	#t02 th, #t02 td {
+		padding: 15px;
+		text-align: left;
+	}
+	#t02 tr:nth-child(even){
+		background-color: #B3B3B3;
+	}
+	#t02 tr:nth-child(odd){
+		background-color: #E8E8E8;
+	}
+	.tabla th{
+		background-color: #E9C323;
+	}
+	.table td{
+		background-color: #FDE7A6;
+	}
+	.table tr:hover{
+		background-color: #FFAE00
+	}
+
+</style>
+</head>
+
+<body>
+	<header>
+	<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav>
+		<h5>aquí va el menú</h5>
+	</nav>
+	<main>
+		<section>
+		<h2>Tabla simple</h2>
+		<table border="1" id="t02">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Email</th>
+					<th>Telefono</th>	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>Maria Guadalupe Sanchez</td>
+				<td>Maria.23@gmail.com</td>
+				<td>2221045640</td>
+				</tr>
+				<tr>
+				<td>Juan Antonio Herrera</td>
+				<td>Juanito21@gmail.com</td>
+				<td>2224667853</td>
+				</tr>
+				<tr>
+				<td>Daniel Vazquez</td>
+				<td>Daniel_V@gmail.com</td>
+				<td>2223456790</td>
+				</tr>
+				<tr>
+				<td>Elias Ortega</td>
+				<td>Eli_O_2000@gmail.com</td>
+				<td>2222325676</td>
+				</tr>
+				<tr>
+				<td>Carolina Ruiz</td>
+				<td>Carolina-Rz@gmail.com</td>
+				<td>2223452356</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla que abarca dos columnas</h2>
+			<table border="1" id="t02">
+			<thead>
+				<tr>
+				<th>Nombre</th>
+				<th colspan="2">Telefono</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Georgina Lope</td>
+						<td>2224567809</td>
+						<td>2346878904</td>
+					</tr>
+					<tr>
+						<td>Yolanda Manzanilla</td>
+						<td>2223454667</td>
+						<td>2234556890</td>
+					</tr>
+					<tr>
+						<td>Lucia Solis</td>
+						<td>2220877756</td>
+						<td>2223443568</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section>
+		<table width="600" border="1" id="t02">
+			<thead>
+				<tr>
+					<th scope="col">Nombre</th>
+					<th scope="col">Apellidos</th>
+					<th scope="col">Edad</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Maria</td>
+					<td>Flore Jimenez</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>Jose Manuel</td>
+					<td>Gomez Perez</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>Graciela</td>
+					<td>Fernandez Juarez</td>
+					<td>14</td>
+				</tr>
+			</tbody>
+		</table>
+		</section>
+		<section>
+		<h2>Tabla simple</h2>
+		<table border="1" id="t02">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Email</th>
+					<th>Telefono</th>	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>Maria Guadalupe Sanchez</td>
+				<td>Maria.23@gmail.com</td>
+				<td>2221045640</td>
+				</tr>
+				<tr>
+				<td>Juan Antonio Herrera</td>
+				<td>Juanito21@gmail.com</td>
+				<td>2224667853</td>
+				</tr>
+				<tr>
+				<td>Daniel Vazquez</td>
+				<td>Daniel_V@gmail.com</td>
+				<td>2223456790</td>
+				</tr>
+				<tr>
+				<td>Elias Ortega</td>
+				<td>Eli_O_2000@gmail.com</td>
+				<td>2222325676</td>
+				</tr>
+				<tr>
+				<td>Carolina Ruiz</td>
+				<td>Carolina-Rz@gmail.com</td>
+				<td>2223452356</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+		<table class="table" width="500" border="1">
+		<thead>
+			<tr>
+			  <th>Nombre</th>
+			  <th>Edad</th>
+			  <th>Genero</th>
+			  <th>Deporte</th>
+			</tr>
+		</thead>
+		<tbody>
+			 <tr>
+				  <td>Maria Lopez</td>
+				  <td>15</td>
+				  <td>Femenino</td>
+				  <td>Futbol</td>
+			</tr>
+			<tr>
+			  <td>Gabriela</td>
+			  <td>12</td>
+			  <td>Femenino</td>
+			  <td>Basquetbol</td>
+			</tr>
+			<tr>
+			  <td>Juan Becera</td>
+			  <td>11</td>
+			  <td>Masculino</td>
+			  <td>Voleibol</td>
+			</tr>
+  		</tbody>
+		<tfoot></tfoot>
+		</table>
+		</section>
+	</main>
+	<footer>
+	<h5>Ana Karen Bartolo Herrera © 2021 </h5>
+	</footer>
+</body>
+</html>
